@@ -16,6 +16,7 @@
 		9FB575C11D17DBC70059E3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB575C01D17DBC70059E3B1 /* Assets.xcassets */; };
 		9FB575C41D17DBC70059E3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB575C21D17DBC70059E3B1 /* LaunchScreen.storyboard */; };
 		9FB575CD1D17DE770059E3B1 /* MyVideoCompositionInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB575CC1D17DE770059E3B1 /* MyVideoCompositionInstruction.m */; };
+		FAC770AF1D1ACDD90093975D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FAC770AE1D1ACDD90093975D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9FB575C51D17DBC70059E3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB575CB1D17DE770059E3B1 /* MyVideoCompositionInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVideoCompositionInstruction.h; sourceTree = "<group>"; };
 		9FB575CC1D17DE770059E3B1 /* MyVideoCompositionInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVideoCompositionInstruction.m; sourceTree = "<group>"; };
+		FAC770AE1D1ACDD90093975D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				9FB575C21D17DBC70059E3B1 /* LaunchScreen.storyboard */,
 				9FB575C51D17DBC70059E3B1 /* Info.plist */,
 				9FB575B41D17DBC70059E3B1 /* Supporting Files */,
+				FAC770AE1D1ACDD90093975D /* README.md */,
 			);
 			path = AVVideoCompositionRadar;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC770AF1D1ACDD90093975D /* README.md in Sources */,
 				9FB575BC1D17DBC70059E3B1 /* ViewController.m in Sources */,
 				9FB575CD1D17DE770059E3B1 /* MyVideoCompositionInstruction.m in Sources */,
 				9F4373851D182AA100C74B79 /* MyVideoCompositor.m in Sources */,
