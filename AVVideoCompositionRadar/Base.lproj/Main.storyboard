@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" generatesPrototypingConstraints="YES" useTraitCollections="YES" colorMatched="NO" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Qye-31-wco">
+                                <rect key="frame" x="14" y="629" width="347" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change value in Composition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5h-Po-9QX">
+                                <rect key="frame" x="76" y="600" width="223" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lBg-09-QR4">
+                                <rect key="frame" x="14" y="537" width="347" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Replace Composition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="if0-N3-Xp6">
+                                <rect key="frame" x="106" y="508" width="163" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="lBg-09-QR4" firstAttribute="leading" secondItem="Qye-31-wco" secondAttribute="leading" id="618-Lo-cKo"/>
+                            <constraint firstItem="f5h-Po-9QX" firstAttribute="top" secondItem="lBg-09-QR4" secondAttribute="bottom" constant="33" id="7Y2-59-Tay"/>
+                            <constraint firstItem="lBg-09-QR4" firstAttribute="top" secondItem="if0-N3-Xp6" secondAttribute="bottom" constant="8" symbolic="YES" id="HsI-7X-C4K"/>
+                            <constraint firstItem="Qye-31-wco" firstAttribute="top" secondItem="f5h-Po-9QX" secondAttribute="bottom" constant="8" symbolic="YES" id="KvB-fH-sMG"/>
+                            <constraint firstItem="f5h-Po-9QX" firstAttribute="centerX" secondItem="Qye-31-wco" secondAttribute="centerX" id="WIL-xB-P4f"/>
+                            <constraint firstItem="lBg-09-QR4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="c1D-Wy-xH7"/>
+                            <constraint firstItem="lBg-09-QR4" firstAttribute="trailing" secondItem="Qye-31-wco" secondAttribute="trailing" id="enF-KE-bfb"/>
+                            <constraint firstItem="lBg-09-QR4" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gek-9N-sJ4"/>
+                            <constraint firstItem="if0-N3-Xp6" firstAttribute="centerX" secondItem="lBg-09-QR4" secondAttribute="centerX" id="qHk-90-gPX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qye-31-wco" secondAttribute="bottom" constant="8" symbolic="YES" id="vdj-tx-PAn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="changeValueSlider" destination="Qye-31-wco" id="C4v-pr-PIV"/>
+                        <outlet property="replaceCompositionSlider" destination="lBg-09-QR4" id="n2t-Yp-wHG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="-123"/>
+        </scene>
+    </scenes>
+</document>
